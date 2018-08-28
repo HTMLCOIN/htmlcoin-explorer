@@ -59,7 +59,7 @@
                 <div class="td">{{ $root.token.convertDecimals(contract.total_supply, contract.decimals) }}</div>
                 <div class="td">{{ contract.count_holders | numeraljs : '0,0[.][00000000]' }}</div>
                 <div class="td">
-                    <a href="/address/{{ contract.contract_address }}" class="ellipsis mark">{{ contract.contract_address }}</a>
+                    <a href="/token/{{ contract.contract_address }}" class="ellipsis mark">{{ contract.contract_address }}</a>
                 </div>
             </div>
         </div>
